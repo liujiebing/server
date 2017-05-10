@@ -1,0 +1,155 @@
+.div_top_bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 587px;
+    z-index: -200;
+    background: url(../img/joinus/TopBg.jpg) left no-repeat;
+    background-size: 100% 587px;
+}
+
+.div_content_box {
+    padding-top: 580px;
+}
+
+.content {
+    /*margin-top: 580px;*/
+    margin-bottom: 92px;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.div_body {
+    /*background-color: transparent;*/
+    background-color: #fdfcf8;
+}
+
+.div_info {
+    width: 987px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.div_info > div.div_top_big {
+    height: 1650px;
+    background: url("../img/joinus/connectBg.jpg") 0 0 no-repeat;
+    background-size: 989px;
+    -webkit-transform: translate3d(0,-125px,0);
+    -moz-transform: translate3d(0,-125px,0);
+    -o-transform: translate3d(0,-125px,0);
+    -ms-transform: translate3d(0,-125px,0);
+    transform: translate3d(0,-125px,0);
+    margin-bottom: -110px;
+}
+
+.items {
+    width: 302px;
+    margin-left: 11px;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    border-bottom: 1px solid #cccccc;
+    display: inline-block;
+}
+
+.div_split {
+    height: 50px;
+}
+
+.div_bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 92px;
+    background-color: #616161;
+    z-index: -1;
+}
+
+.div_bottom div {
+    width: 697px;
+    margin: 0 auto;
+    height: 68px;
+    background: url(../img/FAQ/bottom.png) center 23px no-repeat;
+    background-size: 100%;
+}
+
+.div_detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1525px;
+    /*height: 710px;*/
+    bottom: 45px;
+    background-color: #ffffff;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 85px;
+    display: none;
+}
+
+div.div_detail > div.delete {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    width: 45px;
+    height: 45px;
+    background: url("../img/joinus/close.png") center no-repeat;
+    background-size: 45px;
+}
+
+.noscroll {
+    position: absolute;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    bottom: 20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+
+.div_work_info {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    right: 40px;
+    bottom: 20px;
+    overflow-y: scroll;
+}
+
+div.div_detail > div.delete:active {
+    background: url("../img/joinus/close_h.png") center no-repeat;
+    background-size: 45px;
+}
+
+.work_name {
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.work_address {
+    font-weight: bold;
+}
+
+.work_address span {
+    font-weight: normal;
+}
+
+.work_detail {
+    font-weight: bold;
+}
+
+.work_detail ol {
+    font-weight: normal;
+    margin-top: -5px;
+}

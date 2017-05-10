@@ -1,0 +1,81 @@
+.index_title {
+    padding-top: 180px;
+}
+
+.div_top_bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -200;
+    background: url(../img/zhaoshang/Topbg.png) left no-repeat;
+    background-size: auto 700px;
+}
+
+.content {
+    margin-top: 477px;
+    margin-bottom: 92px;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.content_top {
+    height: 112px;
+    background: url(../img/zhaoshang/zhaoshang.png) center no-repeat;
+    background-size: auto 112px;
+}
+
+.div_duixiang_title {
+    width: 633px;
+    height: 258px;
+    padding-top: 75px;
+    margin: 0 auto;
+    background: url("../img/zhaoshang/duixiangtext.png") center 75px no-repeat;
+    background-size: 100%;
+}
+
+#div_zhaoshang_type {
+    margin-top: 110px;
+    height: 461px;
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.type_info {
+    width: 1079px;
+    height: 461px;
+    margin: 0 auto;
+    background: url("../img/zhaoshang/zhaoshangType.png") center no-repeat;
+    background-size: 1079px;
+}
+
+#div_zhaoshang_connect {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.connect_info {
+    height: 293px;
+    background: url("../img/zhaoshang/connect.png") center no-repeat;
+    background-size: 417px;
+}
+
+.div_bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 92px;
+    background-color: #616161;
+    z-index: -1;
+}
+
+.div_bottom div {
+    width: 697px;
+    margin: 0 auto;
+    height: 68px;
+    background: url(../img/FAQ/bottom.png) center 23px no-repeat;
+    background-size: 100%;
+}

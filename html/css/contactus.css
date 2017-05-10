@@ -1,0 +1,53 @@
+body {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.div_text {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /*padding-top: 150px;*/
+    /*height: 472px;*/
+    /*background: url("../img/contactus/text.png") center no-repeat;*/
+    /*background-size: 1px 472px;*/
+    background: url("../img/contactus/bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.div_top {
+    z-index: 999;
+}
+
+.div_text div.bg{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0px;
+    margin-top: -236px;
+    height: 472px;
+    background: url("../img/contactus/text.png") center no-repeat;
+    background-size: auto 472px;
+}
+
+.div_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;;
+    height: 92px;
+    background-color: #616161;
+}
+
+.div_bottom div {
+    width: 697px;
+    margin: 0 auto;
+    height: 68px;
+    background: url(../img/FAQ/bottom.png) center 23px no-repeat;
+    background-size: 100%;
+}

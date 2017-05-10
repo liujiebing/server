@@ -1,0 +1,247 @@
+body {
+    overflow: scroll;
+    background-color: #fdfcf8;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.index_title ul {
+    margin-left: -20px;
+	*margin-left: 20px;
+}
+
+.div_top_btn {    
+    height: 126px;
+    width: 644px;
+    margin: 0 auto;
+    padding-top: 200px;
+    background: url(../img/FAQ/TopTitle.png) center 200px no-repeat;
+    background-size: 100%;
+}
+
+.top_btn {
+    display: inline-block;
+    width: 120px;
+    height: 160px;
+    margin: 0px 20px;
+    background-color: #ff00ff;
+}
+
+.div_top_bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 580px;
+    z-index: -200;
+    background: url(../img/FAQ/TopBg.png) left no-repeat;
+    background-size: auto;
+}
+
+.div_bottom_bg {
+    /*position: relative;*/
+    /*height: 500px;*/
+    /*z-index: -100;*/
+    /*color: #fdfcf8;*/
+    /*background: url(../img/FAQ/bottombg.png) left;*/
+    /*background-size: 100%;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    background: url(../img/FAQ/bottombg.png) left;
+    background-size: 100%;
+    z-index: -100;
+    display: none;
+}
+
+.bottom_desc_title {
+    width: 1066px;
+    height: 284px;
+    margin: 0 auto;
+    padding-top: 80px;
+    background: url(../img/FAQ/bottom_text.png) center 80px no-repeat;
+    background-size: 100%;
+}
+
+.div_desc_center {
+    width: 1100px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.bottom_desc {
+    line-height: 38px;
+    font-size: 20px; 
+}
+
+.content {
+    margin-top: 477px;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.content_top {
+    height: 106px;
+    background: url(../img/FAQ/ServicreFAQ.png) center no-repeat;
+    background-size: auto 106px;
+}
+
+.div_detail {
+    display: none;
+}
+
+.title {
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.div_info .title:first-child {
+    margin-top: 0px;
+}
+
+.div_body {
+    padding-top: 80px;
+}
+
+.right_show {
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+
+.down {
+    background: url(../img/FAQ/down.png) center no-repeat;
+    background-size: 14px;
+}
+
+.up {
+    background: url(../img/FAQ/up.png) center no-repeat;
+    background-size: 11px;
+}
+
+.div_desc {
+    margin-top: 40px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+div.div_Q {
+    margin-top: 20px;
+}
+
+div.div_Q:before {
+    content: 'Q:';
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+div.div_A:before {
+    content: 'A:';
+    margin-right: 10px;
+    color: #ee3e54;
+    font-weight: bolder;
+}
+
+span.div_A {
+    margin-right: 16px;
+    color: #ee3e54;
+    font-weight: bolder;
+}
+
+.count_item2 {
+
+}
+
+.count_item:before {
+    content: "";
+    margin-right: 40px;
+}
+
+.div_xiaoxi_tip {
+    margin-top: 20px;
+}
+
+.div_xiaoxi_tip:before {
+    margin-left: -18px;
+    padding-left: 18px;
+    background: url(../img/FAQ/tip_point.png) left no-repeat;
+    background-size: 16px;
+    display: block;
+    content: '小西提醒';
+    color: #ee3e54;
+}
+
+.boder {
+    font-weight: bold;
+}
+
+.div_connect {
+    height: 227px;
+    margin-top: 40px;
+}
+
+.splite {
+    height: 10px;
+    background: url(../img/FAQ/splite.png) left repeat-x;
+    background-size: auto 10px;
+    margin-bottom: 500px;
+}
+
+.div_code {
+    width: 207px;
+    height: 185px;
+    float: left;
+    background: url(../img/FAQ/code.png) left no-repeat;
+    background-size: 187px;
+}
+
+.div_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 92px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.div_bottom div {
+    width: 697px;
+    margin: 0 auto;
+    height: 68px;
+    background: url(../img/FAQ/bottom.png) center 23px no-repeat;
+    background-size: 100%;
+}
+
+#logistics_detail, #aftersales_detail, #coupon_detail, #items_detail, #auth_detail{
+    position: relative;
+}
+
+#logistics_detail_a, #aftersales_detail_a, #coupon_detail_a, #items_detail_a, #auth_detail_a{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu > ul > li > a {
+    color: #8881a5;
+    text-decoration:none;
+    padding: 5px;
+    border-radius: 5px;
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+    background-color: transparent;
+}
+
+.menu > ul > li.active > a {
+    color: #ffffff;
+    text-decoration:none;
+    background-color: #000000;
+    border-radius: 5px;
+}
